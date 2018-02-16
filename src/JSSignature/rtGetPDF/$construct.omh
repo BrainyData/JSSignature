@@ -1,0 +1,3 @@
+
+;  return PDF data in mime format (call owner to get it)
+Quit method $iremoteforms.[pParams.PDFOwner].$pdfmime
