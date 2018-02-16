@@ -1,6 +1,0 @@
-;  client initialization
-;  here we can check the version number of the script
-
-JavaScript: var version = ctrl_signature_VERSION.split('.').join('');
-JavaScript: if (version<10214)     ;; 102 = component version, 14 the script version for this version of the component
-JavaScript: {  alert("Script Error ("+version+")\r\n\r\nThe script is not of the correct version. Please ensure you have installed the correct script in the Studio server and refreshed your browser or cleared your Browser cash.");}

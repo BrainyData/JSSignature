@@ -1,3 +1,0 @@
-On evClick
-	Do method handleSubmit
-	Do $cinst.$objs.ctrlSignature.$clearsignature()

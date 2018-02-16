@@ -1,9 +1,0 @@
-;  transfer data to instance vars
-Calculate ivDocText as pDocText
-Calculate ivDocSignature as pDocSignature
-;  prepare output destination
-Calculate ivPDFParams as $devices.[kDevPdf].$getparam(kDevPdfAll)     ;; initialize our device parameters
-Calculate ivPDFParams.[kDevPdfFileName] as pOutputNotation     ;; direct output to remote task
-;  print the data
-Do $cinst.$printrecord()
-Do $cinst.$printtotals()
