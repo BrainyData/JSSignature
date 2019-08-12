@@ -40,6 +40,16 @@
 			"edgefloat": "kEFnone",
 			"dragborder": false,
 			"errortextpos": "kJSErrorTextPosUnder"
+		},
+		{
+			"name": "kSSZjs320x480Landscape",
+			"left": 0,
+			"top": 0,
+			"width": 478,
+			"height": 298,
+			"edgefloat": "kEFnone",
+			"dragborder": false,
+			"errortextpos": "kJSErrorTextPosUnder"
 		}
 	]
 }
